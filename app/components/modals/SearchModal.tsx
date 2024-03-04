@@ -19,8 +19,8 @@ import Heading from '../Heading';
 
 enum STEPS {
   LOCATION = 0,
-  // DATE = 1,
-  // INFO = 2,
+  DATE = 1,
+  INFO = 2,
 }
 
 const SearchModal = () => {
@@ -34,11 +34,11 @@ const SearchModal = () => {
   const [guestCount, setGuestCount] = useState(1);
   const [roomCount, setRoomCount] = useState(1);
   const [bathroomCount, setBathroomCount] = useState(1);
-  // const [dateRange, setDateRange] = useState<Range>({
-  //   startDate: new Date(),
-  //   endDate: new Date(),
-  //   key: 'selection'
-  // });
+  const [dateRange, setDateRange] = useState<Range>({
+    startDate: new Date(),
+    endDate: new Date(),
+    key: 'selection'
+  });
 
   const Map = useMemo(() => dynamic(() => import('../Map'), { 
     ssr: false 
@@ -48,61 +48,61 @@ const SearchModal = () => {
     setStep((value) => value - 1);
   }, []);
 
-  // const onNext = useCallback(() => {
-  //   setStep((value) => value + 1);
-  // }, []);
+  const onNext = useCallback(() => {
+    setStep((value) => value + 1);
+  }, []);
 
-  // const onSubmit = useCallback(async () => {
-  //   if (step !== STEPS.INFO) {
-  //     return onNext();
-  //   }
+  const onSubmit = useCallback(async () => {
+    if (step !== STEPS.INFO) {
+      return onNext();
+    }
 
-  //   let currentQuery = {};
+    let currentQuery = {};
 
-  //   if (params) {
-  //     currentQuery = qs.parse(params.toString())
-  //   }
+    if (params) {
+      currentQuery = qs.parse(params.toString())
+    }
 
-  //   const updatedQuery: any = {
-  //     ...currentQuery,
-  //     locationValue: location?.value,
-  //     guestCount,
-  //     roomCount,
-  //     bathroomCount
-  //   };
+    const updatedQuery: any = {
+      ...currentQuery,
+      locationValue: location?.value,
+      guestCount,
+      roomCount,
+      bathroomCount
+    };
 
-  //   if (dateRange.startDate) {
-  //     updatedQuery.startDate = formatISO(dateRange.startDate);
-  //   }
+    if (dateRange.startDate) {
+      updatedQuery.startDate = formatISO(dateRange.startDate);
+    }
 
-  //   if (dateRange.endDate) {
-  //     updatedQuery.endDate = formatISO(dateRange.endDate);
-  //   }
+    if (dateRange.endDate) {
+      updatedQuery.endDate = formatISO(dateRange.endDate);
+    }
 
-  //   const url = qs.stringifyUrl({
-  //     url: '/',
-  //     query: updatedQuery,
-  //   }, { skipNull: true });
+    const url = qs.stringifyUrl({
+      url: '/',
+      query: updatedQuery,
+    }, { skipNull: true });
 
-  //   setStep(STEPS.LOCATION);
-  //   searchModal.onClose();
-  //   router.push(url);
-  // }, 
-  // [
-  //   step, 
-  //   searchModal, 
-  //   location, 
-  //   router, 
-  //   guestCount, 
-  //   roomCount,
-  //   dateRange,
-  //   onNext,
-  //   bathroomCount,
-  //   params
-  // ]);
+    setStep(STEPS.LOCATION);
+    searchModal.onClose();
+    router.push(url);
+  }, 
+  [
+    step, 
+    searchModal, 
+    location, 
+    router, 
+    guestCount, 
+    roomCount,
+    dateRange,
+    onNext,
+    bathroomCount,
+    params
+  ]);
 
   const actionLabel = useMemo(() => {
-    if (step === STEPS.INFO) {
+    if (step === STEPS.LOCATION) {
       return 'Search'
     }
 
