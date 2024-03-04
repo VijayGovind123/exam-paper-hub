@@ -7,14 +7,15 @@ const Logo = () => {
   const router = useRouter();
 
   return ( 
-    <Image
-      onClick={() => router.push('/')}
-      className="hidden md:block cursor-pointer" 
-      src="/images/logo.png" 
-      height="100" 
-      width="100" 
-      alt="Logo" 
-    />
+    // <Image
+    //   onClick={() => router.push('/')}
+    //   className="hidden md:block cursor-pointer" 
+    //   src="/images/logo.png" 
+    //   height="100" 
+    //   width="100" 
+    //   alt="Logo" 
+    // />
+    <p className="font-bold text-lg" onClick={() => router.push('/')} >Exam Paper Hub</p>
    );
 }
  
