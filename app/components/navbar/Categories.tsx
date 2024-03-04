@@ -12,7 +12,7 @@ import {
   GiIsland,
   GiWindmill
 } from 'react-icons/gi';
-import { FaComputer } from "react-icons/fa6";
+import { FaComputer } from "react-icons/fa";
 import { FcElectronics } from "react-icons/fc";
 import { FcElectricalThreshold } from "react-icons/fc";
 import { GiGreenhouse } from "react-icons/gi";
@@ -21,17 +21,13 @@ import { GiCableStayedBridge } from "react-icons/gi";
 import { SiAtom } from "react-icons/si";
 import { GiHiveMind } from "react-icons/gi";
 import { GiMining } from "react-icons/gi";
-import { FaOilWell } from "react-icons/fa6";
+import { FaOilWell } from "react-icons/fa";
 import { GiMiningHelmet } from "react-icons/gi";
 import { FaTractor } from "react-icons/fa";
 import { GiComputing } from "react-icons/gi";
 import { FaDatabase } from "react-icons/fa";
 import { MdManageAccounts } from "react-icons/md";
 
-import { FaSkiing } from 'react-icons/fa';
-import { BsSnow } from 'react-icons/bs';
-import { IoDiamond } from 'react-icons/io5';
-import { MdOutlineVilla } from 'react-icons/md';
 
 import CategoryBox from "../CategoryBox";
 import Container from '../Container';
