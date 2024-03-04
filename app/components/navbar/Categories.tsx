@@ -37,32 +37,32 @@ export const categories = [
   {
     label: 'CSE',
     icon: MdComputer,
-    description: 'This property is close to the beach!',
+    description: 'Computer Science & Engineering',
   },
   {
     label: 'ECE',
     icon: FcElectronics,
-    description: 'This property is has windmills!',
+    description: 'Electronics & Communication Engineering',
   },
   {
     label: 'EE',
     icon: FcElectricalThreshold,
-    description: 'This property is modern!'
+    description: 'Electrical Engineering'
   },
   {
     label: 'Enviro',
     icon: GiGreenhouse,
-    description: 'This property is in the countryside!'
+    description: 'Environmental Engineering'
   },
   {
     label: 'Chemical',
     icon: SlChemistry,
-    description: 'This is property has a beautiful pool!'
+    description: 'Chemical Engineering'
   },
   {
     label: 'Civil',
     icon: GiCableStayedBridge,
-    description: 'This property is on an island!'
+    description: 'Civil Engineering'
   },
   {
     label: 'Physics',
@@ -72,12 +72,12 @@ export const categories = [
   {
     label: 'Humanities',
     icon: GiHiveMind,
-    description: 'This property has skiing activies!'
+    description: 'Engineering Physics'
   },
   {
     label: 'Mining',
     icon: GiMining,
-    description: 'This property is an ancient castle!'
+    description: 'Mining Engineering'
   },
   {
     label: 'Petro',
@@ -87,27 +87,27 @@ export const categories = [
   {
     label: 'MME',
     icon: GiMiningHelmet,
-    description: 'This property offers camping activities!'
+    description: 'Petroleum Engineering'
   },
   {
     label: 'Mech',
     icon: FaTractor,
-    description: 'This property is in arctic environment!'
+    description: 'Mechanical Engineering'
   },
   {
     label: 'IT',
     icon: GiComputing,
-    description: 'This property is in the desert!'
+    description: 'Information Technology'
   },
   {
     label: 'Data Science',
     icon: FaDatabase,
-    description: 'This property is in a barn!'
+    description: 'Data Science'
   },
   {
     label: 'MBA',
     icon: MdManageAccounts,
-    description: 'This property is brand new and luxurious!'
+    description: 'Master of Business Administration'
   }
 ]
 
