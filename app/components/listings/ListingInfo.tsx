@@ -56,7 +56,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
           <div>Hosted by {user?.name}</div>
           <Avatar src={user?.image} />
         </div>
-        <div className="
+{/*         <div className="
             flex 
             flex-row 
             items-center 
@@ -74,7 +74,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
           <div>
             {bathroomCount} bathrooms
           </div>
-        </div>
+        </div> */}
       </div>
       <hr />
       {category && (
