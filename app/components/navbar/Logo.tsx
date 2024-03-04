@@ -15,7 +15,7 @@ const Logo = () => {
     //   width="100" 
     //   alt="Logo" 
     // />
-    <p className="font-bold text-lg" onClick={() => router.push('/')} >Exam Paper Hub</p>
+    <p className="font-bold text-lg hidden md:block cursor-pointer" onClick={() => router.push('/')} >Exam Paper Hub</p>
    );
 }
  
