@@ -12,7 +12,7 @@ import {
   GiIsland,
   GiWindmill
 } from 'react-icons/gi';
-import { FaComputer } from "react-icons/fa";
+import { MdComputer } from "react-icons/md";
 import { FcElectronics } from "react-icons/fc";
 import { FcElectricalThreshold } from "react-icons/fc";
 import { GiGreenhouse } from "react-icons/gi";
@@ -21,7 +21,7 @@ import { GiCableStayedBridge } from "react-icons/gi";
 import { SiAtom } from "react-icons/si";
 import { GiHiveMind } from "react-icons/gi";
 import { GiMining } from "react-icons/gi";
-import { FaOilWell } from "react-icons/fa";
+import { GiOilPump } from "react-icons/gi";
 import { GiMiningHelmet } from "react-icons/gi";
 import { FaTractor } from "react-icons/fa";
 import { GiComputing } from "react-icons/gi";
@@ -36,7 +36,7 @@ import Container from '../Container';
 export const categories = [
   {
     label: 'CSE',
-    icon: FaComputer,
+    icon: MdComputer,
     description: 'This property is close to the beach!',
   },
   {
@@ -81,7 +81,7 @@ export const categories = [
   },
   {
     label: 'Petro',
-    icon: FaOilWell,
+    icon: GiOilPump,
     description: 'This property is in a spooky cave!'
   },
   {
