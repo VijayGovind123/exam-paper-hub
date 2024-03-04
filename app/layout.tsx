@@ -1,5 +1,5 @@
 import { Nunito } from 'next/font/google'
-
+import { Inter } from 'next/font/google'
 import Navbar from '@/app/components/navbar/Navbar';
 import LoginModal from '@/app/components/modals/LoginModal';
 import RegisterModal from '@/app/components/modals/RegisterModal';
@@ -13,13 +13,16 @@ import ClientOnly from './components/ClientOnly';
 import getCurrentUser from './actions/getCurrentUser';
 
 export const metadata = {
-  title: 'Airbnb',
-  description: 'Airbnb Clone',
+  title: 'Exam Paper Hub',
+  description: 'Exam Paper Hub',
 }
 
 const font = Nunito({ 
   subsets: ['latin'], 
 });
+const inter= Inter({
+  subsets:['latin'],
+})
 
 export default async function RootLayout({
   children,
@@ -30,7 +33,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={inter.className}>
         <ClientOnly>
           <ToasterProvider />
           <LoginModal />
