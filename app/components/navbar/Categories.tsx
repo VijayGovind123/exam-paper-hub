@@ -23,37 +23,37 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Beach',
+    label: 'CSE',
     icon: TbBeach,
     description: 'This property is close to the beach!',
   },
   {
-    label: 'Windmills',
+    label: 'ECE',
     icon: GiWindmill,
     description: 'This property is has windmills!',
   },
   {
-    label: 'Modern',
+    label: 'EE',
     icon: MdOutlineVilla,
     description: 'This property is modern!'
   },
   {
-    label: 'Countryside',
+    label: 'Enviro',
     icon: TbMountain,
     description: 'This property is in the countryside!'
   },
   {
-    label: 'Pools',
+    label: 'Chemical',
     icon: TbPool,
     description: 'This is property has a beautiful pool!'
   },
   {
-    label: 'Islands',
+    label: 'Civil',
     icon: GiIsland,
     description: 'This property is on an island!'
   },
   {
-    label: 'Lake',
+    label: 'Physics',
     icon: GiBoatFishing,
     description: 'This property is near a lake!'
   },
@@ -63,37 +63,37 @@ export const categories = [
     description: 'This property has skiing activies!'
   },
   {
-    label: 'Castles',
+    label: 'Mining',
     icon: GiCastle,
     description: 'This property is an ancient castle!'
   },
   {
-    label: 'Caves',
+    label: 'Petro',
     icon: GiCaveEntrance,
     description: 'This property is in a spooky cave!'
   },
   {
-    label: 'Camping',
+    label: 'MME',
     icon: GiForestCamp,
     description: 'This property offers camping activities!'
   },
   {
-    label: 'Arctic',
+    label: 'Mech',
     icon: BsSnow,
     description: 'This property is in arctic environment!'
   },
   {
-    label: 'Desert',
+    label: 'IT',
     icon: GiCactus,
     description: 'This property is in the desert!'
   },
   {
-    label: 'Barns',
+    label: 'Data Science',
     icon: GiBarn,
     description: 'This property is in a barn!'
   },
   {
-    label: 'Lux',
+    label: 'MBA',
     icon: IoDiamond,
     description: 'This property is brand new and luxurious!'
   }
