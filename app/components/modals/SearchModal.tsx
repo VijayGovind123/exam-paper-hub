@@ -19,8 +19,8 @@ import Heading from '../Heading';
 
 enum STEPS {
   LOCATION = 0,
-  DATE = 1,
-  INFO = 2,
+  // DATE = 1,
+  // INFO = 2,
 }
 
 const SearchModal = () => {
