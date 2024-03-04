@@ -109,7 +109,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
           </div>
         </div>
         <div className="font-semibold text-lg">
-          {location?.region}, {location?.label}
+          {data?.title}, {data?.description}
         </div>
         <div className="font-light text-neutral-500">
           {reservationDate || data.category}
@@ -118,9 +118,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
           <div className="font-semibold">
             $ {price}
           </div>
-          {!reservation && (
-            <div className="font-light">night</div>
-          )}
+
         </div>
         {onAction && actionLabel && (
           <Button
