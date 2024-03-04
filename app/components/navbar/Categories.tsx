@@ -12,6 +12,22 @@ import {
   GiIsland,
   GiWindmill
 } from 'react-icons/gi';
+import { FaComputer } from "react-icons/fa6";
+import { FcElectronics } from "react-icons/fc";
+import { FcElectricalThreshold } from "react-icons/fc";
+import { GiGreenhouse } from "react-icons/gi";
+import { SlChemistry } from "react-icons/sl";
+import { GiCableStayedBridge } from "react-icons/gi";
+import { SiAtom } from "react-icons/si";
+import { GiHiveMind } from "react-icons/gi";
+import { GiMining } from "react-icons/gi";
+import { FaOilWell } from "react-icons/fa6";
+import { GiMiningHelmet } from "react-icons/gi";
+import { FaTractor } from "react-icons/fa";
+import { GiComputing } from "react-icons/gi";
+import { FaDatabase } from "react-icons/fa";
+import { MdManageAccounts } from "react-icons/md";
+
 import { FaSkiing } from 'react-icons/fa';
 import { BsSnow } from 'react-icons/bs';
 import { IoDiamond } from 'react-icons/io5';
@@ -24,77 +40,77 @@ import Container from '../Container';
 export const categories = [
   {
     label: 'CSE',
-    icon: TbBeach,
+    icon: FaComputer,
     description: 'This property is close to the beach!',
   },
   {
     label: 'ECE',
-    icon: GiWindmill,
+    icon: FcElectronics,
     description: 'This property is has windmills!',
   },
   {
     label: 'EE',
-    icon: MdOutlineVilla,
+    icon: FcElectricalThreshold,
     description: 'This property is modern!'
   },
   {
     label: 'Enviro',
-    icon: TbMountain,
+    icon: GiGreenhouse,
     description: 'This property is in the countryside!'
   },
   {
     label: 'Chemical',
-    icon: TbPool,
+    icon: SlChemistry,
     description: 'This is property has a beautiful pool!'
   },
   {
     label: 'Civil',
-    icon: GiIsland,
+    icon: GiCableStayedBridge,
     description: 'This property is on an island!'
   },
   {
     label: 'Physics',
-    icon: GiBoatFishing,
+    icon: SiAtom,
     description: 'This property is near a lake!'
   },
   {
-    label: 'Skiing',
-    icon: FaSkiing,
+    label: 'Humanities',
+    icon: GiHiveMind,
     description: 'This property has skiing activies!'
   },
   {
     label: 'Mining',
-    icon: GiCastle,
+    icon: GiMining,
     description: 'This property is an ancient castle!'
   },
   {
     label: 'Petro',
-    icon: GiCaveEntrance,
+    icon: FaOilWell,
     description: 'This property is in a spooky cave!'
   },
   {
     label: 'MME',
-    icon: GiForestCamp,
+    icon: GiMiningHelmet,
     description: 'This property offers camping activities!'
   },
   {
     label: 'Mech',
-    icon: BsSnow,
+    icon: FaTractor,
     description: 'This property is in arctic environment!'
   },
   {
     label: 'IT',
-    icon: GiCactus,
+    icon: GiComputing,
     description: 'This property is in the desert!'
   },
   {
     label: 'Data Science',
-    icon: GiBarn,
+    icon: FaDatabase,
     description: 'This property is in a barn!'
   },
   {
     label: 'MBA',
-    icon: IoDiamond,
+    icon: MdManageAccounts,
     description: 'This property is brand new and luxurious!'
   }
 ]
